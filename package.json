@@ -1,0 +1,15 @@
+{
+  "name": "wans-telebot",
+  "version": "1.0.0",
+  "description": "wans telegram bot",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "micro-bot -p ${PORT}"  
+  },
+  "author": "ihsansatriawan",
+  "license": "ISC",
+  "dependencies": {
+    "micro-bot": "^1.4.1"
+  }
+}
